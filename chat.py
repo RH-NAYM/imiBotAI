@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "ChatBot"
+bot_name = "Settler"
 while True:
     # sentence = "do you use credit cards?"
     sentence = input("You: ")

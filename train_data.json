@@ -1,0 +1,1076 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hi",
+          "hey",
+          "how are you",
+          "is anyone there?",
+          "hello",
+          "good day"
+        ],
+        "responses": [
+          "hey :-)",
+          "hello, thanks for visiting",
+          "hi there, what can I do for you?",
+          "hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "see you later", "goodbye"],
+        "responses": [
+          "see you later, thanks for visiting",
+          "have a nice day",
+          "bye! come back again soon."
+        ]
+      },
+      {
+        "tag": "my_name",
+        "patterns":[
+          "what is your name?",
+          "who are you",
+          "tell me your name",
+          "define yourself"
+        ],
+        "responses":[
+          "I am ChatBot. How can I help you?"
+        ]
+  
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "that's helpful", "thank's a lot!"],
+        "responses": ["happy to help!", "any time!", "my pleasure"]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "tell me a joke!",
+          "tell me something funny!",
+          "do you know a joke?"
+        ],
+        "responses": [
+          "why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "what did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "total_day",
+        "patterns": [
+            "number of total working day",
+            "what is total work day?",
+            "how many day work?",
+            "tell me the total work day",
+            "total days",
+            "total works",
+            "count all works",
+            "sum total work"
+        ],
+        "responses": [
+            "total_day_worked"
+        ]
+      },
+      {
+        "tag": "total_employee_worked",
+        "patterns": [
+            "number of total employee",
+            "total employee",
+            "tell me total employee number",
+            "what is the total employee number",
+            "what is the number of total employee?",
+            "total amount of employee",
+            "in total employee",
+            "all employee",
+            "count all employee",
+            "sum total employee"
+        ],
+        "responses": [
+            "total_employee_worked"
+        ]
+      },
+      {
+        "tag": "total_mat_used",
+        "patterns": [
+            "how much material is there in total?",
+            "total material used in the month",
+            "total material?",
+            "tell me the amount of material used in total",
+            "toatal amount of material",
+            "count all the material",
+            "sum total material",
+            "how much mat is there in total?",
+            "total mat used in the month",
+            "total mat?",
+            "tell me the amount of mat used in total",
+            "toatal amount of mat",
+            "count all the mat",
+            "sum total mat"
+        ],
+        "responses": [
+            "total_material_used"
+        ]
+      },
+      {
+        "tag": "total_sr",
+        "patterns": [
+            "total average strike rate",
+            "what is the strike rate?",
+            "tell me the strike rate",
+            "tell me the average strike rate",
+            "average strike rate",
+            "average strike rate",
+            "total average sr",
+            "what is the sr?",
+            "tell me the sr",
+            "tell me the average sr",
+            "average sr",
+            "total avg strike rate",
+            "what is the strike rate?",
+            "tell me the strike rate",
+            "tell me the avg strike rate",
+            "strike rate",
+            "avg strike rate",
+            "total avg sr",
+            "what is the sr?",
+            "tell me the sr",
+            "tell me the avg sr",
+            "avg sr"
+        ],
+        "responses": [
+            "total_strike_rate"
+        ]
+      },
+      {
+        "tag": "total_shop_covered",
+        "patterns": [
+            "total shops",
+            "what is the total shop number",
+            "tell me the total shop number",
+            "in total shop covered",
+            "total shop number",
+            "tell me the number of total shop",
+            "total amount shop",
+            "tell me the total amount of shops",
+            "sum of all shop",
+            "sum total shop"
+        ],
+        "responses": [
+            "total_shop_covered"
+        ]
+      },
+      {
+        "tag": "total_avg_employee",
+        "patterns": [
+            "what is the total average employee number",
+            "what is the total avg employee no",
+            "tell me the number of average employee",
+            "tell me average employee",
+            "tell me avg employee"
+        ],
+        "responses": [
+            "total_avg_eemployee"
+        ]
+      },
+      {
+        "tag": "total_avg_mat",
+        "patterns": [
+            "average material",
+            "what is the average material",
+            "tell me the number of avg material",
+            "what is the avg material",
+            "avg daily material",
+            "average daily material",
+            "tell me daily average material",
+            "avg material used"
+        ],
+        "responses": [
+            "total_avg_material"
+        ]
+      },
+      {
+        "tag": "total_avg_shop",
+        "patterns": [
+            "average shop",
+            "what is the average shop",
+            "tell me the number of avg shop",
+            "what is the avg shop",
+            "avg daily shop",
+            "average daily shop",
+            "tell me daily average shop",
+            "avg shop used"
+        ],
+        "responses": [
+            "total_avg_shop"
+            ]
+      },
+      {
+        "tag": "max_employee",
+        "patterns": [
+            "maximum employee",
+            "what the maximum employee",
+            "tell me maximum employee date",
+            "when is the maximum employee",
+            "maximum employee detail",
+            "date of maximum employee",
+            "maximum employee date",
+            "tell me the date of maximum employee",
+            "maximum employee",
+            "what the maximum employee",
+            "tell me maximum employee date",
+            "when is the maximum employee",
+            "maximum employee detail",
+            "date of maximum employee",
+            "maximum employee date",
+            "tell me the date of maximum employee",
+            "max employee",
+            "what the max employee",
+            "tell me max employee date",
+            "when is the max employee",
+            "max employee detail",
+            "date of max employee",
+            "max employee date",
+            "tell me the date of max employee",
+            "max employee",
+            "what the max employee",
+            "tell me max employee date",
+            "when is the max employee",
+            "max employee detail",
+            "date of max employee",
+            "max employee date",
+            "tell me the date of max employee"
+        ],
+        "responses": [
+            "total_max_employee"
+        ]
+      },
+      {
+        "tag": "max_mat",
+        "patterns": [
+            "maximum material",
+            "what the maximum material",
+            "tell me maximum material date",
+            "when is the maximum material",
+            "maximum material detail",
+            "date of maximum material",
+            "maximum material date",
+            "tell me the date of maximum material",
+            "maximum mat",
+            "what the maximum mat",
+            "tell me maximum mat date",
+            "when is the maximum mat",
+            "maximum mat detail",
+            "date of maximum mat",
+            "maximum mat date",
+            "tell me the date of maximum mat",
+            "max material",
+            "what the max material",
+            "tell me max material date",
+            "when is the max material",
+            "max material detail",
+            "date of max material",
+            "max material date",
+            "tell me the date of max material",
+            "max mat",
+            "what the max mat",
+            "tell me max mat date",
+            "when is the max mat",
+            "max mat detail",
+            "date of max mat",
+            "max mat date",
+            "tell me the date of max mat"
+        ],
+        "responses": [
+            "total_max_material"
+        ]
+      },
+      {
+        "tag": "maxSR",
+        "patterns": [
+            "maximum strike rate",
+            "what the maximum strike rate",
+            "tell me maximum strike rate date",
+            "when is the maximum strike rate",
+            "maximum strike rate detail",
+            "date of maximum strike rate",
+            "maximum strike rate date",
+            "tell me the date of maximum strike rate",
+            "maximum sr",
+            "what the maximum sr",
+            "tell me maximum sr date",
+            "when is the maximum sr",
+            "maximum sr detail",
+            "date of maximum sr",
+            "maximum sr date",
+            "tell me the date of maximum sr",
+            "max strike rate",
+            "what the max strike rate",
+            "tell me max strike rate date",
+            "when is the max strike rate",
+            "max strike rate detail",
+            "date of max strike rate",
+            "max strike rate date",
+            "tell me the date of max strike rate",
+            "max sr",
+            "what the max sr",
+            "tell me max sr date",
+            "when is the max sr",
+            "max sr detail",
+            "date of max sr",
+            "max sr date",
+            "tell me the date of max sr"
+        ],
+        "responses": [
+            "total_max_strike_rate"
+        ]
+      },
+      {
+        "tag": "max_shop",
+        "patterns": [
+            "maximum shop",
+            "what the maximum shop",
+            "tell me maximum shop date",
+            "when is the maximum shop",
+            "maximum shop detail",
+            "date of maximum shop",
+            "maximum shop date",
+            "tell me the date of maximum shop",
+            "maximum shop",
+            "what the maximum shop",
+            "tell me maximum shop date",
+            "when is the maximum shop",
+            "maximum shop detail",
+            "date of maximum shop",
+            "maximum shop date",
+            "tell me the date of maximum shop",
+            "max shop",
+            "what the max shop",
+            "tell me max shop date",
+            "when is the max shop",
+            "max shop detail",
+            "date of max shop",
+            "max shop date",
+            "tell me the date of max shop",
+            "max shop",
+            "what the max shop",
+            "tell me max shop date",
+            "when is the max shop",
+            "max shop detail",
+            "date of max shop",
+            "max shop date",
+            "tell me the date of max shop"
+        ],
+        "responses": [
+            "total_max_shop_covered"
+        ]
+      },
+      {
+        "tag": "min_employee",
+        "patterns": [
+            "minimum employee",
+            "what the minimum employee",
+            "tell me minimum employee date",
+            "when is the minimum employee",
+            "minimum employee detail",
+            "date of minimum employee",
+            "minimum employee date",
+            "tell me the date of minimum employee",
+            "minimum employee",
+            "what the minimum employee",
+            "tell me minimum employee date",
+            "when is the minimum employee",
+            "minimum employee detail",
+            "date of minimum employee",
+            "minimum employee date",
+            "tell me the date of minimum employee",
+            "min employee",
+            "what the min employee",
+            "tell me min employee date",
+            "when is the min employee",
+            "min employee detail",
+            "date of min employee",
+            "min employee date",
+            "tell me the date of min employee",
+            "min employee",
+            "what the min employee",
+            "tell me min employee date",
+            "when is the min employee",
+            "min employee detail",
+            "date of min employee",
+            "min employee date",
+            "tell me the date of min employee"
+        ],
+        "responses": [
+            "total_min_employee"
+        ]
+      },
+      {
+        "tag": "min_mat",
+        "patterns": [
+            "minimum material",
+            "what the minimum material",
+            "tell me minimum material date",
+            "when is the minimum material",
+            "minimum material detail",
+            "date of minimum material",
+            "minimum material date",
+            "tell me the date of minimum material",
+            "minimum mat",
+            "what the minimum mat",
+            "tell me minimum mat date",
+            "when is the minimum mat",
+            "minimum mat detail",
+            "date of minimum mat",
+            "minimum mat date",
+            "tell me the date of minimum mat",
+            "min material",
+            "what the min material",
+            "tell me min material date",
+            "when is the min material",
+            "min material detail",
+            "date of min material",
+            "min material date",
+            "tell me the date of min material",
+            "min mat",
+            "what the min mat",
+            "tell me min mat date",
+            "when is the min mat",
+            "min mat detail",
+            "date of min mat",
+            "min mat date",
+            "tell me the date of min mat"
+        ],
+        "responses": [
+            "total_min_material"
+        ]
+      },
+      {
+        "tag": "minSR",
+        "patterns": [
+            "minimum strike rate",
+            "what the minimum strike rate",
+            "tell me minimum strike rate date",
+            "when is the minimum strike rate",
+            "minimum strike rate detail",
+            "date of minimum strike rate",
+            "minimum strike rate date",
+            "tell me the date of minimum strike rate",
+            "minimum sr",
+            "what the minimum sr",
+            "tell me minimum sr date",
+            "when is the minimum sr",
+            "minimum sr detail",
+            "date of minimum sr",
+            "minimum sr date",
+            "tell me the date of minimum sr",
+            "min strike rate",
+            "what the min strike rate",
+            "tell me min strike rate date",
+            "when is the min strike rate",
+            "min strike rate detail",
+            "date of min strike rate",
+            "min strike rate date",
+            "tell me the date of min strike rate",
+            "min sr",
+            "what the min sr",
+            "tell me min sr date",
+            "when is the min sr",
+            "min sr detail",
+            "date of min sr",
+            "min sr date",
+            "tell me the date of min sr"
+        ],
+        "responses": [
+            "total_min_strike_rate"
+        ]
+      },
+      {
+        "tag": "min_shop",
+        "patterns": [
+            "minimum shop",
+            "what the minimum shop",
+            "tell me minimum shop date",
+            "when is the minimum shop",
+            "minimum shop detail",
+            "date of minimum shop",
+            "minimum shop date",
+            "tell me the date of minimum shop",
+            "minimum shop",
+            "what the minimum shop",
+            "tell me minimum shop date",
+            "when is the minimum shop",
+            "minimum shop detail",
+            "date of minimum shop",
+            "minimum shop date",
+            "tell me the date of minimum shop",
+            "min shop",
+            "what the min shop",
+            "tell me min shop date",
+            "when is the min shop",
+            "min shop detail",
+            "date of min shop",
+            "min shop date",
+            "tell me the date of min shop",
+            "min shop",
+            "what the min shop",
+            "tell me min shop date",
+            "when is the min shop",
+            "min shop detail",
+            "date of min shop",
+            "min shop date",
+            "tell me the date of min shop"
+        ],
+        "responses": [
+            "total_min_shop_covered"
+        ]
+      },
+      {
+        "tag": "single_date_employee",
+        "patterns": [
+            "what is the employee number at day/month/year",
+            "number of employee on day/month/year",
+            "available employee on day/month/year",
+            "tell me employee on day/month/year",
+            "employee on day/month/year"
+  
+        ],
+        "responses": [
+            "single_date_employee"
+        ]
+      },
+      {
+        "tag": "single_date_mat",
+        "patterns": [
+            "what is the material number at day/month/year",
+            "number of material on day/month/year",
+            "available material on day/month/year",
+            "tell me material on day/month/year",
+            "material on day/month/year"
+        ],
+        "responses": [
+            "single_date_material"
+        ]
+      },
+      {
+        "tag": "single_date_sr",
+        "patterns": [
+            "what is the strike rate at day/month/year",
+            "strike rate on day/month/year",
+            "what strike rate on day/month/year",
+            "tell me strike rate on day/month/year",
+            "strike rate on day/month/year",
+            "what is the sr at day/month/year",
+            "sr on day/month/year",
+            "what sr on day/month/year",
+            "tell me sr on day/month/year",
+            "sr on day/month/year"
+        ],
+        "responses": [
+            "single_date_strike_rate"
+        ]
+      },
+      {
+        "tag": "single_date_shop",
+        "patterns": [
+            "what is the shop number at day/month/year",
+            "shops on day/month/year",
+            "how many shops on day/month/year",
+            "tell me shops covered on day/month/year",
+            "shop on day/month/year"
+        ],
+        "responses": [
+            "single_date_shop_covered"
+        ]
+      },
+      {
+        "tag": "today_employee",
+        "patterns": [
+            "todays employee",
+            "how many employees are working today",
+            "what is the employee number today",
+            "tell me the today total employee number"
+        ],
+        "responses": [
+            "today_employee"
+        ]
+      },
+      {
+        "tag": "today_mat",
+        "patterns": [
+            "todays material",
+            "how many materials are working today",
+            "what is the material number today",
+            "tell me the today total material number",
+            "todays mat",
+            "how many mats are working today",
+            "what is the mat number today",
+            "tell me the today total mat number"
+        ],
+        "responses": [
+            "today_material"
+        ]
+      },
+      {
+        "tag": "today_sr",
+        "patterns": [
+            "todays strike rate",
+            "what is the strike rate today",
+            "tell me the today total strike rate",
+            "todays sr",
+            "what is the sr today",
+            "what is the sr number today",
+            "tell me the today sr"
+        ],
+        "responses": [
+            "today_strike_rate"
+        ]
+      },
+      {
+        "tag": "today_shop",
+        "patterns": [
+            "todays shop number",
+            "what is the shop number today",
+            "tell me the today total shop number",
+            "todays shop cover",
+            "what is the shop cover today",
+            "tell me the today total shop cover"
+        ],
+        "responses": [
+            "today_shop_covered"
+        ]
+      },
+      {
+        "tag": "yesterday_employee",
+        "patterns": [
+            "yesterday employee",
+            "how many employees work yesterday",
+            "what is the employee number yesterday",
+            "tell me the yesterday total employee number"
+        ],
+        "responses": [
+            "yesterday_employee"
+        ]
+      },
+      {
+        "tag": "yesterday_mat",
+        "patterns": [
+            "yesterday material",
+            "how many materials are working yesterday",
+            "what is the material number yesterday",
+            "tell me the yesterday total material number",
+            "yesterday mat",
+            "how many mats are working yesterday",
+            "what is the mat number yesterday",
+            "tell me the yesterday total mat number"
+        ],
+        "responses": [
+            "yesterday_material"
+        ]
+      },
+      {
+        "tag": "yesterday_sr",
+        "patterns": [
+            "yesterday strike rate",
+            "what is the strike rate yesterday",
+            "tell me the yesterday total strike rate",
+            "yesterday sr",
+            "what is the sr yesterday",
+            "what is the sr number yesterday",
+            "tell me the yesterday sr"
+        ],
+        "responses": [
+            "yesterday_strike_rate"
+        ]
+      },
+      {
+        "tag": "yesterday_shop",
+        "patterns": [
+            "yesterdays shop number",
+            "what is the shop number yesterday",
+            "tell me the yesterday total shop number",
+            "yesterdays shop cover",
+            "what is the shop cover yesterday",
+            "tell me the yesterday total shop cover"
+        ],
+        "responses": [
+            "yesterday_shop"
+        ]
+      },
+      {
+        "tag": "day2_employee",
+        "patterns": [
+            "total employee in between month/day/year and month/day/year",
+            "number of employee in month/day/year and month/day/year",
+            "how many employee work in the middle of month/day/year and month/day/year",
+            "employee in between month/day/year and month/day/year",
+            "total number of employee in month/day/year and month/day/year",
+            "tell me the number of employee in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_total_employee"
+        ]
+      },
+      {
+        "tag": "day2_mat",
+        "patterns": [
+            "total material in between month/day/year and month/day/year",
+            "number of material in month/day/year and month/day/year",
+            "how many material use in the middle of month/day/year and month/day/year",
+            "material in between month/day/year and month/day/year",
+            "total number of material in month/day/year and month/day/year",
+            "tell me the number of material in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_total_material"
+        ]
+      },
+      {
+        "tag": "day2_sr",
+        "patterns": [
+            "total strike rate in between month/day/year and month/day/year",
+            "strike rate in month/day/year and month/day/year",
+            "strike rate in the middle of month/day/year and month/day/year",
+            "strike rate in between month/day/year and month/day/year",
+            "total strike rate in month/day/year and month/day/year",
+            "tell me the strike rate in between month/day/year and month/day/year",
+            "total sr in between month/day/year and month/day/year",
+            "sr in month/day/year and month/day/year",
+            "sr in the middle of month/day/year and month/day/year",
+            "sr in between month/day/year and month/day/year",
+            "total sr in month/day/year and month/day/year",
+            "tell me the sr in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_total_strike_rate"
+        ]
+      },
+      {
+        "tag": "day2_shop",
+        "patterns": [
+            "total shop in between month/day/year and month/day/year",
+            "number of shop in month/day/year and month/day/year",
+            "how many shop cover in the middle of month/day/year and month/day/year",
+            "shop in between month/day/year and month/day/year",
+            "total number of shop in month/day/year and month/day/year",
+            "tell me the number of shop in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_total_shop"
+        ]
+      },
+      {
+        "tag": "max_employee_2_day",
+        "patterns": [
+            "maximum employee in between month/day/year and month/day/year",
+            "number of maximum employee in month/day/year and month/day/year",
+            "maximum employee work in the middle of month/day/year and month/day/year",
+            "maximum employee in between month/day/year and month/day/year",
+            "maximum number of employee in month/day/year and month/day/year",
+            "tell me the maximum number of employee in between month/day/year and month/day/year",
+            "max employee in between month/day/year and month/day/year",
+            "number of max employee in month/day/year and month/day/year",
+            "max employee work in the middle of month/day/year and month/day/year",
+            "max employee in between month/day/year and month/day/year",
+            "max number of employee in month/day/year and month/day/year",
+            "tell me the max number of employee in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_max_employee"
+        ]
+      },
+      {
+        "tag": "max_material_2_day",
+        "patterns": [
+            "maximum mat in between month/day/year and month/day/year",
+            "number of maximum mat in month/day/year and month/day/year",
+            "maximum mat work in the middle of month/day/year and month/day/year",
+            "maximum mat in between month/day/year and month/day/year",
+            "maximum number of mat in month/day/year and month/day/year",
+            "tell me the maximum number of mat in between month/day/year and month/day/year",
+            "max mat in between month/day/year and month/day/year",
+            "number of max mat in month/day/year and month/day/year",
+            "max mat work in the middle of month/day/year and month/day/year",
+            "max mat in between month/day/year and month/day/year",
+            "max number of mat in month/day/year and month/day/year",
+            "tell me the max number of mat in between month/day/year and month/day/year",
+            "maximum material in between month/day/year and month/day/year",
+            "number of maximum material in month/day/year and month/day/year",
+            "maximum material work in the middle of month/day/year and month/day/year",
+            "maximum material in between month/day/year and month/day/year",
+            "maximum number of material in month/day/year and month/day/year",
+            "tell me the maximum number of material in between month/day/year and month/day/year",
+            "max material in between month/day/year and month/day/year",
+            "number of max material in month/day/year and month/day/year",
+            "max material work in the middle of month/day/year and month/day/year",
+            "max material in between month/day/year and month/day/year",
+            "max number of material in month/day/year and month/day/year",
+            "tell me the max number of material in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_max_material"
+        ]
+      },
+      {
+        "tag": "max_sr_2_day",
+        "patterns": [
+            "maximum strike rate in between month/day/year and month/day/year",
+            "number of maximum strike rate in month/day/year and month/day/year",
+            "maximum strike rate in the middle of month/day/year and month/day/year",
+            "maximum strike rate in between month/day/year and month/day/year",
+            "maximum number of strike rate in month/day/year and month/day/year",
+            "tell me the maximum of strike rate in between month/day/year and month/day/year",
+            "max strike rate in between month/day/year and month/day/year",
+            "number of max strike rate in month/day/year and month/day/year",
+            "max strike rate in the middle of month/day/year and month/day/year",
+            "max strike rate in between month/day/year and month/day/year",
+            "max strike rate in month/day/year and month/day/year",
+            "tell me the max of strike rate in between month/day/year and month/day/year",
+            "maximum sr in between month/day/year and month/day/year",
+            "maximum sr in month/day/year and month/day/year",
+            "maximum sr in the middle of month/day/year and month/day/year",
+            "maximum sr in between month/day/year and month/day/year",
+            "maximum sr in month/day/year and month/day/year",
+            "tell me the maximum of sr in between month/day/year and month/day/year",
+            "max sr in between month/day/year and month/day/year",
+            "number of max sr in month/day/year and month/day/year",
+            "max sr work in the middle of month/day/year and month/day/year",
+            "max sr in between month/day/year and month/day/year",
+            "max of sr in month/day/year and month/day/year",
+            "tell me the max sr in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_max_strike_rate"
+        ]
+      },
+      {
+        "tag": "max_shop_2_day",
+        "patterns": [
+            "maximum shop in between month/day/year and month/day/year",
+            "number of maximum shop in month/day/year and month/day/year",
+            "maximum shop covered in the middle of month/day/year and month/day/year",
+            "maximum shop in between month/day/year and month/day/year",
+            "maximum number of shop in month/day/year and month/day/year",
+            "tell me the maximum number of shop in between month/day/year and month/day/year",
+            "max shop in between month/day/year and month/day/year",
+            "number of max shop in month/day/year and month/day/year",
+            "max shop cover in the middle of month/day/year and month/day/year",
+            "max shop in between month/day/year and month/day/year",
+            "max number of shop in month/day/year and month/day/year",
+            "tell me the max number of shop in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_max_shop"
+        ]
+      },
+      {
+        "tag": "min_employee_2_day",
+        "patterns": [
+            "minimum employee in between month/day/year and month/day/year",
+            "number of minimum employee in month/day/year and month/day/year",
+            "minimum employee work in the middle of month/day/year and month/day/year",
+            "minimum employee in between month/day/year and month/day/year",
+            "minimum number of employee in month/day/year and month/day/year",
+            "tell me the minimum number of employee in between month/day/year and month/day/year",
+            "min employee in between month/day/year and month/day/year",
+            "number of min employee in month/day/year and month/day/year",
+            "min employee work in the middle of month/day/year and month/day/year",
+            "min employee in between month/day/year and month/day/year",
+            "min number of employee in month/day/year and month/day/year",
+            "tell me the min number of employee in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_min_employee"
+        ]
+      },
+      {
+        "tag": "min_material_2_day",
+        "patterns": [
+            "minimum mat in between month/day/year and month/day/year",
+            "number of minimum mat in month/day/year and month/day/year",
+            "minimum mat work in the middle of month/day/year and month/day/year",
+            "minimum mat in between month/day/year and month/day/year",
+            "minimum number of mat in month/day/year and month/day/year",
+            "tell me the minimum number of mat in between month/day/year and month/day/year",
+            "min mat in between month/day/year and month/day/year",
+            "number of min mat in month/day/year and month/day/year",
+            "min mat work in the middle of month/day/year and month/day/year",
+            "min mat in between month/day/year and month/day/year",
+            "min number of mat in month/day/year and month/day/year",
+            "tell me the min number of mat in between month/day/year and month/day/year",
+            "minimum material in between month/day/year and month/day/year",
+            "number of minimum material in month/day/year and month/day/year",
+            "minimum material work in the middle of month/day/year and month/day/year",
+            "minimum material in between month/day/year and month/day/year",
+            "minimum number of material in month/day/year and month/day/year",
+            "tell me the minimum number of material in between month/day/year and month/day/year",
+            "min material in between month/day/year and month/day/year",
+            "number of min material in month/day/year and month/day/year",
+            "min material work in the middle of month/day/year and month/day/year",
+            "min material in between month/day/year and month/day/year",
+            "min number of material in month/day/year and month/day/year",
+            "tell me the min number of material in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_min_material"
+        ]
+      },
+      {
+        "tag": "min_sr_2_day",
+        "patterns": [
+            "minimum strike rate in between month/day/year and month/day/year",
+            "number of minimum strike rate in month/day/year and month/day/year",
+            "minimum strike rate in the middle of month/day/year and month/day/year",
+            "minimum strike rate in between month/day/year and month/day/year",
+            "minimum number of strike rate in month/day/year and month/day/year",
+            "tell me the minimum of strike rate in between month/day/year and month/day/year",
+            "min strike rate in between month/day/year and month/day/year",
+            "number of min strike rate in month/day/year and month/day/year",
+            "min strike rate in the middle of month/day/year and month/day/year",
+            "min strike rate in between month/day/year and month/day/year",
+            "min strike rate in month/day/year and month/day/year",
+            "tell me the min of strike rate in between month/day/year and month/day/year",
+            "minimum sr in between month/day/year and month/day/year",
+            "minimum sr in month/day/year and month/day/year",
+            "minimum sr in the middle of month/day/year and month/day/year",
+            "minimum sr in between month/day/year and month/day/year",
+            "minimum sr in month/day/year and month/day/year",
+            "tell me the minimum of sr in between month/day/year and month/day/year",
+            "min sr in between month/day/year and month/day/year",
+            "number of min sr in month/day/year and month/day/year",
+            "min sr work in the middle of month/day/year and month/day/year",
+            "min sr in between month/day/year and month/day/year",
+            "min of sr in month/day/year and month/day/year",
+            "tell me the min sr in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_min_strike_rate"
+        ]
+      },
+      {
+        "tag": "min_shop_2_day",
+        "patterns": [
+            "minimum shop in between month/day/year and month/day/year",
+            "number of minimum shop in month/day/year and month/day/year",
+            "minimum shop covered in the middle of month/day/year and month/day/year",
+            "minimum shop in between month/day/year and month/day/year",
+            "minimum number of shop in month/day/year and month/day/year",
+            "tell me the minimum number of shop in between month/day/year and month/day/year",
+            "min shop in between month/day/year and month/day/year",
+            "number of min shop in month/day/year and month/day/year",
+            "min shop cover in the middle of month/day/year and month/day/year",
+            "min shop in between month/day/year and month/day/year",
+            "min number of shop in month/day/year and month/day/year",
+            "tell me the min number of shop in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_two_date_min_shop"
+        ]
+      },
+      {
+        "tag": "avg_employee_2_day",
+        "patterns": [
+            "average employee in between month/day/year and month/day/year",
+            "number of average employee in month/day/year and month/day/year",
+            "average employee work in the middle of month/day/year and month/day/year",
+            "average employee in between month/day/year and month/day/year",
+            "average number of employee in month/day/year and month/day/year",
+            "tell me the average number of employee in between month/day/year and month/day/year",
+            "avg employee in between month/day/year and month/day/year",
+            "number of avg employee in month/day/year and month/day/year",
+            "avg employee work in the middle of month/day/year and month/day/year",
+            "avg employee in between month/day/year and month/day/year",
+            "avg number of employee in month/day/year and month/day/year",
+            "tell me the avg number of employee in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_2_day_avg_employee"
+        ]
+      },
+      {
+        "tag": "avg_mat_2_day",
+        "patterns": [
+            "average mat in between month/day/year and month/day/year",
+            "number of average mat in month/day/year and month/day/year",
+            "average mat work in the middle of month/day/year and month/day/year",
+            "average mat in between month/day/year and month/day/year",
+            "average number of mat in month/day/year and month/day/year",
+            "tell me the average number of mat in between month/day/year and month/day/year",
+            "avg mat in between month/day/year and month/day/year",
+            "number of avg mat in month/day/year and month/day/year",
+            "avg mat work in the middle of month/day/year and month/day/year",
+            "avg mat in between month/day/year and month/day/year",
+            "avg number of mat in month/day/year and month/day/year",
+            "tell me the avg number of mat in between month/day/year and month/day/year",
+            "average material in between month/day/year and month/day/year",
+            "number of average material in month/day/year and month/day/year",
+            "average material work in the middle of month/day/year and month/day/year",
+            "average material in between month/day/year and month/day/year",
+            "average number of material in month/day/year and month/day/year",
+            "tell me the average number of material in between month/day/year and month/day/year",
+            "avg material in between month/day/year and month/day/year",
+            "number of avg material in month/day/year and month/day/year",
+            "avg material work in the middle of month/day/year and month/day/year",
+            "avg material in between month/day/year and month/day/year",
+            "avg number of material in month/day/year and month/day/year",
+            "tell me the avg number of material in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_2_day_avg_material"
+        ]
+      },
+      {
+        "tag": "avg_sr_2_day",
+        "patterns": [
+            "average strike rate in between month/day/year and month/day/year",
+            "number of average strike rate in month/day/year and month/day/year",
+            "average strike rate in the middle of month/day/year and month/day/year",
+            "average strike rate in between month/day/year and month/day/year",
+            "average number of strike rate in month/day/year and month/day/year",
+            "tell me the average of strike rate in between month/day/year and month/day/year",
+            "avg strike rate in between month/day/year and month/day/year",
+            "number of avg strike rate in month/day/year and month/day/year",
+            "avg strike rate in the middle of month/day/year and month/day/year",
+            "avg strike rate in between month/day/year and month/day/year",
+            "avg strike rate in month/day/year and month/day/year",
+            "tell me the avg of strike rate in between month/day/year and month/day/year",
+            "average sr in between month/day/year and month/day/year",
+            "average sr in month/day/year and month/day/year",
+            "average sr in the middle of month/day/year and month/day/year",
+            "average sr in between month/day/year and month/day/year",
+            "average sr in month/day/year and month/day/year",
+            "tell me the average of sr in between month/day/year and month/day/year",
+            "avg sr in between month/day/year and month/day/year",
+            "number of avg sr in month/day/year and month/day/year",
+            "avg sr work in the middle of month/day/year and month/day/year",
+            "avg sr in between month/day/year and month/day/year",
+            "avg of sr in month/day/year and month/day/year",
+            "tell me the avg sr in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_2_day_avg_strike_rate"
+        ]
+      },
+      {
+        "tag": "avg_shop_2_day",
+        "patterns": [
+            "average shop in between month/day/year and month/day/year",
+            "number of average shop in month/day/year and month/day/year",
+            "average shop covered in the middle of month/day/year and month/day/year",
+            "average shop in between month/day/year and month/day/year",
+            "average number of shop in month/day/year and month/day/year",
+            "tell me the average number of shop in between month/day/year and month/day/year",
+            "avg shop in between month/day/year and month/day/year",
+            "number of avg shop in month/day/year and month/day/year",
+            "avg shop cover in the middle of month/day/year and month/day/year",
+            "avg shop in between month/day/year and month/day/year",
+            "avg number of shop in month/day/year and month/day/year",
+            "tell me the avg number of shop in between month/day/year and month/day/year"
+        ],
+        "responses": [
+            "in_between_2_day_avg_shop"
+        ]
+      }
+    ]
+  }
+  
