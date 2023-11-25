@@ -9,18 +9,18 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
-with open('intents.json', 'r') as f:
+with open("intents.json", "r") as f:
     intents = json.load(f)
 
 all_words = []
 tags = []
 xy = []
 # loop through each sentence in our intents patterns
-for intent in intents['intents']:
-    tag = intent['tag']
+for intent in intents["intents"]:
+    tag = intent["tag"]
     # add to tag list
     tags.append(tag)
-    for pattern in intent['patterns']:
+    for pattern in intent["patterns"]:
         # tokenize each word in the sentence
         w = tokenize(pattern)
         # add to our words list
@@ -29,7 +29,7 @@ for intent in intents['intents']:
         xy.append((w, tag))
 
 # stem and lower each word
-ignore_words = ['?', '.', '!']
+ignore_words = ["?", ".", "!"]
 all_words = [stem(w) for w in all_words if w not in ignore_words]
 # remove duplicates and sort
 all_words = sorted(set(all_words))
@@ -83,7 +83,7 @@ train_loader = DataLoader(dataset=dataset,
                           shuffle=True,
                           num_workers=0)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
@@ -109,10 +109,10 @@ for epoch in range(num_epochs):
         optimizer.step()
         
     if (epoch+1) % 1 == 0:
-        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+        print (f"Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}")
 
 
-print(f'final loss: {loss.item():.4f}')
+print(f"final loss: {loss.item():.4f}")
 
 data = {
 "model_state": model.state_dict(),
@@ -126,4 +126,4 @@ data = {
 FILE = "data.pth"
 torch.save(data, FILE)
 
-print(f'training complete. file saved to {FILE}')
+print(f"training complete. file saved to {FILE}")
